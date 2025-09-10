@@ -11,7 +11,10 @@ public class Q_01 {
         if (word.length() % 2 == 1){
             int middle=word.length()/2;
             System.out.println("Middle character: "+word.charAt(middle));
-
         }
+        else {
+            System.out.println("word length is not odd. re enter word");
+        }
+        scanner.close();
     }
 }
