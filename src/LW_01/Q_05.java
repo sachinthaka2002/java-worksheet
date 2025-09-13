@@ -6,11 +6,9 @@ class Circle {
     Circle(double r) {
         radius = r;
     }
-
     double computeArea() {
         return Math.PI * radius * radius;
     }
-
 }
 
 public class Q_05 {
