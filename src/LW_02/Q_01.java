@@ -8,6 +8,6 @@ public class Q_01 {
             if(i % 10 == 9){
                 System.out.println();
             }
-        } 
+        }
     }
 }
