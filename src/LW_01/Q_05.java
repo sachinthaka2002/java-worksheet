@@ -13,11 +13,11 @@ class Circle {
 
 public class Q_05 {
     public static void main(String[] args) {
-        double ri = 4;  // inner radius
-        double ro = 7;  // outer radius
+        double r1 = 4;  // inner radius
+        double r2 = 7;  // outer radius
 
-        Circle inner = new Circle(ri);
-        Circle outer = new Circle(ro);
+        Circle inner = new Circle(r1);
+        Circle outer = new Circle(r2);
 
         double shadedArea = outer.computeArea() - inner.computeArea();
 
