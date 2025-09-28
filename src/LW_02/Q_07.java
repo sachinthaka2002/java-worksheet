@@ -13,6 +13,7 @@ public class Q_07 {
         String formattedDate = today.format(formatter);
         System.out.println("Today's date is: "+ formattedDate);
 
+
     }
 }
 
