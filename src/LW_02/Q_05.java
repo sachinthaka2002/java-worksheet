@@ -11,5 +11,21 @@ public class Q_05 {
 
         StringTokenizer st = new StringTokenizer(input, " ,.!?;:-'\\\"\"");
         String cleaned = "";
+
+        while (st.hasMoreTokens()) {
+            cleaned += st.nextToken().toLowerCase();
+        }
+
+        String reversed = new StringBuilder(cleaned).reverse().toString();
+
+        if (cleaned.equals(reversed)) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not a palindrome");
+        }
+
+        sc.close();
+
     }
+
 }
