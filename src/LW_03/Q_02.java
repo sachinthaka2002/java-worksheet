@@ -1,7 +1,7 @@
 package LW_03;
 
 import java.util.Scanner;
-public class Q_2 {
+public class Q_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Temperature(in farenhiet): ");
